@@ -1,0 +1,18 @@
+.logo-color{
+    color: #3EC65D;
+}
+.menu:hover{
+    background-color: #3EC65D;
+    color: rgb(78, 78, 78);
+}
+.hero-content{
+    background-image: url(./header.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+border-bottom: 3px solid #3EC65D;
+}
+/* #header{
+    background-color: #242426;
+    height: 100vh;
+} */

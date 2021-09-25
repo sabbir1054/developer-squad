@@ -10,7 +10,7 @@
   },
   {
     "id": 2,
-    "name": "Sebastian Witowski",
+    "name": "Sebastian",
     "profession": "Front Developer",
     "age": 36,
     "technology": "React",
@@ -24,7 +24,7 @@
     "age": 41,
     "technology": "Javascript",
     "salary": 41225,
-    "img": "https://pbs.twimg.com/media/EXmUdmUXYAY-LW8.jpg"
+    "img": "https://avatars.githubusercontent.com/u/48605830?v=4"
   },
   {
     "id": 4,
@@ -42,7 +42,7 @@
     "age": 25,
     "technology": "Webflow",
     "salary": 1080,
-    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQaZDRCYi_2EdP44kWvqxgaTj9qH00Ca-bpA&usqp=CAU"
+    "img": "https://avatars.githubusercontent.com/u/135995?v=4"
   },
   {
     "id": 6,
@@ -51,7 +51,7 @@
     "age": 36,
     "technology": "Wordpress",
     "salary": 19800,
-    "img": "https://organiconn.files.wordpress.com/2013/06/ransegall.jpeg"
+    "img": "https://avatars.githubusercontent.com/u/84855513?v=4"
   },
   {
     "id": 7,
