@@ -15,11 +15,17 @@ const HomePage = () => {
   }, []);
 
     const addMember = (developer) => {
-        console.log(developer.id);
-    let newMember = [...addedMembers, developer];
-    setAddedMembers(newMember);
+     let newMember = [...addedMembers, developer];
+    setAddedMembers(removeDuplicates(newMember)); 
   };
-
+ 
+    const removeDuplicates = (data) => {
+        let unique = data.reduce((a, b) => {
+            if (a.indexOf(b) < 0) a.push(b);
+            return a;
+        }, [])
+        return unique;
+    }
 
 
   return (
