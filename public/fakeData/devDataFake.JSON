@@ -1,0 +1,164 @@
+[
+  {
+    "id": 1,
+    "name": "Inest Montani",
+    "profession": "Software Developer",
+    "age": 25,
+    "technology": "Python",
+    "salary": 1210,
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_cKtpv9_xjwcXAHBkv-xIx2N9tJrkSaPn6g&usqp=CAU"
+  },
+  {
+    "id": 2,
+    "name": "Sebastian Witowski",
+    "profession": "Front Developer",
+    "age": 36,
+    "technology": "React",
+    "salary": 19800,
+    "img": "https://avatars.githubusercontent.com/u/614588?v=4"
+  },
+  {
+    "id": 3,
+    "name": "Jaheed ",
+    "profession": "Backend Developer",
+    "age": 41,
+    "technology": "Javascript",
+    "salary": 41225,
+    "img": "https://pbs.twimg.com/media/EXmUdmUXYAY-LW8.jpg"
+  },
+  {
+    "id": 4,
+    "name": "David Jack",
+    "profession": "Web Developer",
+    "age": 41,
+    "technology": "React",
+    "salary": 70900,
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSvl3A-yb16qbEoYeq5gqrGjHlLLZAUHkJ5A&usqp=CAU"
+  },
+  {
+    "id": 5,
+    "name": "Ran Segall",
+    "profession": "Web Developer",
+    "age": 25,
+    "technology": "Webflow",
+    "salary": 1080,
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQaZDRCYi_2EdP44kWvqxgaTj9qH00Ca-bpA&usqp=CAU"
+  },
+  {
+    "id": 6,
+    "name": "Lukas Langa",
+    "profession": "Front Developer",
+    "age": 36,
+    "technology": "Wordpress",
+    "salary": 19800,
+    "img": "https://organiconn.files.wordpress.com/2013/06/ransegall.jpeg"
+  },
+  {
+    "id": 7,
+    "name": "Brad Traversy",
+    "profession": "Web Developer",
+    "age": 47,
+    "technology": "Anguler",
+    "salary": 41225,
+    "img": "https://avatars.githubusercontent.com/u/5550850?v=4"
+  },
+  {
+    "id": 8,
+    "name": "Luke Wroblewski",
+    "profession": "Ui/Ux Designer",
+    "age": 37,
+    "technology": "Sketch",
+    "salary": 70900,
+    "img": "https://avatars.githubusercontent.com/u/33946557?v=4"
+  },
+  {
+    "id": 9,
+    "name": "Whitney Hess ",
+    "profession": "Ui/Ux Designer",
+    "age": 51,
+    "technology": "Figma",
+    "salary": 70900,
+    "img": "https://avatars.githubusercontent.com/u/1287072?v=4"
+  },
+  {
+    "id": 10,
+    "name": "Graeme Fulton",
+    "profession": "Web Designer",
+    "age": 36,
+    "technology": "Javascript",
+    "salary": 70900,
+    "img": "https://avatars.githubusercontent.com/u/6692364?v=4"
+  },
+  {
+    "id": 11,
+    "name": "Sara Soueidan",
+    "profession": "Backend Developer",
+    "age": 27,
+    "technology": "C",
+    "salary": 70900,
+    "img": "https://avatars.githubusercontent.com/u/10776230?v=4"
+  },
+  {
+    "id": 12,
+    "name": "Luke Wroblewski",
+    "profession": "Ui/Ux Designer",
+    "age": 42,
+    "technology": "Sketch",
+    "salary": 7800,
+    "img": "https://avatars.githubusercontent.com/u/776743?v=4"
+  },
+  {
+    "id": 13,
+    "name": "Dan Cederholm",
+    "profession": "Ethical Hacker",
+    "age": 41,
+    "technology": "Cyber Security",
+    "salary": 4123,
+    "img": "https://avatars.githubusercontent.com/u/809191?v=4"
+  },
+  {
+    "id": 14,
+    "name": "Dayana Smith",
+    "profession": "Web Designer",
+    "age": 35,
+    "technology": "PHP",
+    "salary": 7900,
+    "img": "https://avatars.githubusercontent.com/u/8030961?v=4"
+  },
+  {
+    "id": 15,
+    "name": "Lukomal ",
+    "profession": "System Designer",
+    "age": 38,
+    "technology": "Docker",
+    "salary": 7541,
+    "img": "https://avatars.githubusercontent.com/u/483853?v=4"
+  },
+  {
+    "id": 16,
+    "name": "Hemilton",
+    "profession": "Web Designer",
+    "age": 31,
+    "technology": "Typescript",
+    "salary": 6412,
+    "img": "https://avatars.githubusercontent.com/u/6281145?v=4"
+  },
+  {
+    "id": 17,
+    "name": "Doung Hellman",
+    "profession": "Software Engineer",
+    "age": 28,
+    "technology": "C++",
+    "salary": 62545,
+    "img": "https://avatars.githubusercontent.com/u/74385?v=4"
+  },
+  {
+    "id": 18,
+    "name": "Wroblewski",
+    "profession": "Game Develope",
+    "age": 34,
+    "technology": "C#",
+    "salary": 5475,
+    "img": "https://avatars.githubusercontent.com/u/8483111?v=4"
+  }
+]
