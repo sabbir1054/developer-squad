@@ -30,7 +30,7 @@ const Header = () => {
               </Nav>
             </Navbar.Collapse>
           </Container>
-        </Navbar>
+        </Navbar>{/* Hero content part */}
         <div className="hero-content py-5">
           <h1 className="display-1 fw-bold d-flex justify-content-center py-5 text-white">
             <span className="logo-color">Developer </span>Squad

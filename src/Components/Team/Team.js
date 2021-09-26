@@ -3,18 +3,16 @@ import "./Team.css";
 
 const Team = (props) => {
   const { addedMember } = props;
+  //developers payment count
+  let totalPayment = 0;
+  for (const member of addedMember) {
+    totalPayment = parseFloat(totalPayment) + parseFloat(member.salary);
+  }
 
-    let totalPayment = 0;
-    for (const member of addedMember) {
-            totalPayment = parseFloat(totalPayment) + parseFloat(member.salary);
-        
-    }
-
-    
   return (
     <div className="text-white">
       <h2 className="text-center">
-        <i class="fas fa-users"></i>
+        <i className="fas fa-users"></i>
       </h2>
       <h1>
         Added Developer:

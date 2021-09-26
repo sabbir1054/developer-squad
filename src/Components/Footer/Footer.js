@@ -2,6 +2,7 @@ import React from 'react';
 
 const Footer = () => {
     return (
+        /* Footer part */
       <div
         className="bg-dark py-4  text-center"
         style={{ "border-top": "3px solid #3EC65D",  }}

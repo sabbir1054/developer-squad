@@ -5,7 +5,7 @@ const Developer = (props) => {
 
   const { name, profession, age, technology, img, salary } = props.developer;
   return (
-    <>
+    <>{/* make a single cart for developer */}
       <div className="col-md-4 developer text-white ">
         <div className="card " style={{ width: "420px" }}>
           <div className="row g-0  bg-dark">

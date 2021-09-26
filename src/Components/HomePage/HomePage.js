@@ -8,29 +8,30 @@ import "./HomePage.css";
 const HomePage = () => {
   const [developers, setDevelopers] = useState([]);
   const [addedMembers, setAddedMembers] = useState([]);
+  // Data load form public folder
   useEffect(() => {
     fetch("./fakeData/devDataFake.json")
       .then((res) => res.json())
       .then((data) => setDevelopers(data));
   }, []);
-
-    const addMember = (developer) => {
-     let newMember = [...addedMembers, developer];
-    setAddedMembers(removeDuplicates(newMember)); 
+  //make member array by remove duplicates data
+  const addMember = (developer) => {
+    let newMember = [...addedMembers, developer];
+    setAddedMembers(removeDuplicates(newMember));
   };
- 
-    const removeDuplicates = (data) => {
-        let unique = data.reduce((a, b) => {
-            if (a.indexOf(b) < 0) a.push(b);
-            return a;
-        }, [])
-        return unique;
-    }
 
+  const removeDuplicates = (data) => {
+    let unique = data.reduce((dev1, dev2) => {
+      if (dev1.indexOf(dev2) < 0) dev1.push(dev2);
+      return dev1;
+    }, []);
+    return unique;
+  };
 
   return (
     <div>
       <Header></Header>
+      {/* website main part */}
       <div id="main-part">
         <Row>
           <Col md={9}>
@@ -44,12 +45,12 @@ const HomePage = () => {
               ))}
             </div>
           </Col>
-          <Col md={3} className='team'>
+          <Col md={3} className="team">
             <Team addedMember={addedMembers} />
           </Col>
         </Row>
-          </div>
-          <Footer></Footer>
+      </div>
+      <Footer></Footer>
     </div>
   );
 };
