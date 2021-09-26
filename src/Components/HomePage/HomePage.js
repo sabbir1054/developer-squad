@@ -34,8 +34,8 @@ const HomePage = () => {
       {/* website main part */}
       <div id="main-part">
         <Row>
-          <Col md={9}>
-            <div className="row g-5 p-5 ms-5">
+          <Col md={10}>
+            <div className="row g-3 py-3 ms-3">
               {developers.map((developer) => (
                 <Developer
                   key={developer.id}
@@ -45,7 +45,7 @@ const HomePage = () => {
               ))}
             </div>
           </Col>
-          <Col md={3} className="team">
+          <Col md={2} className="team">
             <Team addedMember={addedMembers} />
           </Col>
         </Row>

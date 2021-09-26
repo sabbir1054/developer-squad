@@ -14,19 +14,19 @@ const Team = (props) => {
       <h2 className="text-center">
         <i className="fas fa-users"></i>
       </h2>
-      <h1>
+      <h3>
         Added Developer:
         <span className="text-warning">{addedMember.length}</span>
-      </h1>
-      <h3>
-        Total Payment:
-        <span className="text-warning">{totalPayment.toFixed(2)}</span>
       </h3>
-      <h2 className="text-center">
+      <h5>
+        Total Payment:
+         <span className="text-warning"> {totalPayment.toFixed(2)}</span>
+      </h5>
+      <h3 className="text-center">
         <u>Members Name </u>
-      </h2>
+      </h3>
       {addedMember.map((member) => (
-        <h4>{member.name} </h4>
+        <h5>{member.name} </h5>
       ))}
     </div>
   );
