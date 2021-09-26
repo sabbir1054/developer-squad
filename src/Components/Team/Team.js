@@ -20,11 +20,11 @@ const Team = (props) => {
       </h3>
       <h5>
         Total Payment:
-         <span className="text-warning"> {totalPayment.toFixed(2)}</span>
+        <span className="text-warning"> {totalPayment.toFixed(2)}</span>
       </h5>
-      <h3 className="text-center">
-        <u>Members Name </u>
-      </h3>
+      <h4 className="text-center">
+        <u>Selected Developers Name </u>
+      </h4>
       {addedMember.map((member) => (
         <h5>{member.name} </h5>
       ))}
