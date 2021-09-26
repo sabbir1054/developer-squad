@@ -22,11 +22,11 @@ const Team = (props) => {
         Total Payment:
         <span className="text-warning"> {totalPayment.toFixed(2)}</span>
       </h5>
-      <h4 className="text-center">
+      <h5 className="text-center">
         <u>Selected Developers Name </u>
-      </h4>
+      </h5>
       {addedMember.map((member) => (
-        <h5>{member.name} </h5>
+        <h6>{member.name} </h6>
       ))}
     </div>
   );
